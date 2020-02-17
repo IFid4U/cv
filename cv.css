@@ -1,0 +1,483 @@
+body
+{
+background-image: url("fondbk.png");
+color: white;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 1.25em;
+}
+
+h1,h2,h3,h5,h6,h8 {
+    margin:0;
+    padding:0;
+    }
+
+h4{
+    margin:0px;
+    padding: 0px;
+}
+
+a {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    }
+
+#réseaux {
+    position: fixed;
+    right: 35%;
+    top: 50%;
+    width: 8em;
+    margin-top: -25em;
+
+    /* Mieux vaut centrer le texte dans un
+     cercle. */
+  text-align : center;
+
+  /* On fait attention à ce que le texte
+     ne touche pas la bordure. On placera
+     donc le texte avec un remplissage, ce
+     qui donnera une meilleure impression
+     pour le cercle. */
+  padding : 1.5em;
+
+  /* La bordure marquera le cercle. On
+     pourrait également utiliser un arrière-
+     plan car celui-ci aurait été contenu 
+     par border-radius */
+  border : 0.15em solid chartreuse;
+
+  background-color: rgba(0, 0, 255, 0.5);
+
+  /* Assurons-nous que la boîte soit carrée
+     pour obtenir un cercle bien rond plutôt
+     qu'une ellipse ;) */
+  width  : 4em;
+  height : 2em;
+
+  /* Enfin, transformons le carré en cercle 
+  border-radius: 100%;*/
+  }
+*/
+
+ul#networks {
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    }
+ul#networks li {
+    list-style-type: none;
+    float: right;
+    margin-right;: 25em;
+
+	margin: 23px;
+}
+ul#networks li a {
+    display: block;
+    position: fixed;
+    width: 32px;
+    height: 32px;
+	padding: 1px;
+	border: 5px solid green;
+	background: white;
+}
+ul#networks li a:hover{
+	background: green;
+}
+
+
+
+#tel {
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 50%;
+    width: 2em;
+    margin-top: -2.5em;
+
+    /* Mieux vaut centrer le texte dans un
+     cercle. */
+  text-align : right;
+  padding-top: 0em;
+
+  /* On fait attention à ce que le texte
+     ne touche pas la bordure. On placera
+     donc le texte avec un remplissage, ce
+     qui donnera une meilleure impression
+     pour le cercle. */
+  padding : 0.25em;
+
+  /* La bordure marquera le cercle. On
+     pourrait également utiliser un arrière-
+     plan car celui-ci aurait été contenu 
+     par border-radius */
+  border : 0.15em solid grey;
+  box-shadow: 2px 2px 5px lightslategray;
+
+
+  background-color: rgba(0, 0, 0, 0.25);
+
+  /* Assurons-nous que la boîte soit carrée
+     pour obtenir un cercle bien rond plutôt
+     qu'une ellipse ;) */
+  width  : 2em;
+  height : 2.25em;
+
+  /* Enfin, transformons le carré en cercle */
+  border-top-left-radius: 25%;
+  }
+
+  ul#tel li a:hover{
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 50%;
+    width: 1.8em;
+    margin-top: -2.75em;
+    text-align : right;
+    padding-top: 0em;
+  
+    width: 2em;
+    height : 2.25em;
+padding: 0.35em;
+    border : 0.15em solid chartreuse;
+    border-top-left-radius: 25%;
+}
+
+
+  #git {
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 56%;
+    width: 2em;
+    margin-top: -2.5em;
+
+    /* Mieux vaut centrer le texte dans un
+     cercle. */
+  text-align : right;
+  padding-top: 0em;
+
+  /* On fait attention à ce que le texte
+     ne touche pas la bordure. On placera
+     donc le texte avec un remplissage, ce
+     qui donnera une meilleure impression
+     pour le cercle. */
+  padding : 0.25em;
+
+  /* La bordure marquera le cercle. On
+     pourrait également utiliser un arrière-
+     plan car celui-ci aurait été contenu 
+     par border-radius */
+  border : 0.15em solid grey;
+  box-shadow: 2px 2px 5px lightslategray;
+
+
+  background-color: rgba(0, 0, 0, 0.25);
+
+  /* Assurons-nous que la boîte soit carrée
+     pour obtenir un cercle bien rond plutôt
+     qu'une ellipse ;) */
+  width  : 2em;
+  height : 2.25em;
+
+  /* Enfin, transformons le carré en cercle 
+  border-radius: 100%;*/
+  }
+
+  ul#git li a:hover{
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 56%;
+    width: 1.8em;
+    margin-top: -2.5em;
+    text-align : right;
+    padding-top: 0em;
+  
+    width: 2em;
+    height : 2.3em;
+padding: 0.35em;
+    border : 0.15em solid chartreuse;
+}
+
+
+  
+  #mail {
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 62%;
+    width: 2em;
+    margin-top: -2.5em;
+
+    /* Mieux vaut centrer le texte dans un
+     cercle. */
+  text-align : right;
+  padding-top: 0em;
+
+  /* On fait attention à ce que le texte
+     ne touche pas la bordure. On placera
+     donc le texte avec un remplissage, ce
+     qui donnera une meilleure impression
+     pour le cercle. */
+  padding : 0.25em;
+
+  /* La bordure marquera le cercle. On
+     pourrait également utiliser un arrière-
+     plan car celui-ci aurait été contenu 
+     par border-radius */
+  border : 0.15em solid grey;
+  box-shadow: 2px 2px 5px lightslategray;
+
+
+  background-color: rgba(0, 0, 0, 0.25);
+
+  /* Assurons-nous que la boîte soit carrée
+     pour obtenir un cercle bien rond plutôt
+     qu'une ellipse ;) */
+  width  : 2em;
+  height : 2.25em;
+
+  /* Enfin, transformons le carré en cercle 
+  border-radius: 100%;*/
+  }
+
+  ul#mail li a:hover{
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 62%;
+    width: 1.8em;
+    margin-top: -2.5em;
+    text-align : right;
+    padding-top: 0em;
+  
+    width: 2em;
+    height : 2.3em;
+padding: 0.35em;
+    border : 0.15em solid chartreuse;
+}
+
+
+
+  #blog {
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 68%;
+    width: 2em;
+    margin-top: -2.5em;
+
+    /* Mieux vaut centrer le texte dans un
+     cercle. */
+  text-align : right;
+  padding-top: 0em;
+
+  /* On fait attention à ce que le texte
+     ne touche pas la bordure. On placera
+     donc le texte avec un remplissage, ce
+     qui donnera une meilleure impression
+     pour le cercle. */
+  padding : 0.25em;
+
+  /* La bordure marquera le cercle. On
+     pourrait également utiliser un arrière-
+     plan car celui-ci aurait été contenu 
+     par border-radius */
+  border : 0.15em solid grey;
+  box-shadow: 2px 2px 5px lightslategray;
+
+
+  background-color: rgba(0, 0, 0, 0.25);
+
+  /* Assurons-nous que la boîte soit carrée
+     pour obtenir un cercle bien rond plutôt
+     qu'une ellipse ;) */
+  width  : 2em;
+  height : 2em;
+
+  /* Enfin, transformons le carré en cercle */
+  border-bottom-left-radius: 25%;
+  }
+
+  ul#blog li a:hover{
+    list-style-type : none;
+    position: fixed;
+    right: -0.1em;
+    top: 68%;
+    width: 1.8em;
+    margin-top: -2.5em;
+    text-align : right;
+    padding-top: 0em;
+  
+    width: 2em;
+    height : 2.2em;
+padding: 0.35em;
+    border : 0.15em solid chartreuse;
+    border-bottom-left-radius: 25%;
+
+}
+
+
+
+
+
+div.blocimage
+{
+float: left;
+margin-right: 1em;
+box-shadow: 4px 3px 5px lightslategray;
+}
+/*.effect4
+{position: relative;
+}
+.effect4:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: white;
+  -webkit-box-shadow: 0 15px 10px white;
+  -moz-box-shadow: 0 15px 10px white;
+  box-shadow: 0 15px 10px white;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}*/
+
+#cadreportrait{
+    border: solid 1px white;
+height: 130px;
+}
+
+
+
+.social
+{
+    display: inline;
+    border: 0.1px solid white;
+}
+
+a
+{
+text-decoration: none;
+color: white;
+font-style: italic;
+}
+
+a:hover
+{
+    color: green;
+}
+
+:visited
+{
+    color: white;
+}
+/*
+.marge
+{
+    margin-left: 10em;
+    box-shadow: 6px 6px 30px white outset,
+}
+*/
+mark
+{
+    background-color: green;
+    color: white;
+}
+
+p
+{
+    font-family: 'Courier New', Courier, monospace, 
+    'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    'Arial', 'Geneva', 'Verdana', sans-serif;
+}
+
+h7
+{
+    font-family: Geneva, sans-serif, serif;
+    font-size: 0.7em;
+    margin-left: 2em;
+}
+
+h8
+{
+    font-family: Geneva, sans-serif, serif;
+    font-size: 0.7em;
+    color: slategray;
+    margin-left: 2em;
+}
+
+h9
+{
+    font-family: Geneva, sans-serif, serif;
+    font-size: 0.7em;
+}
+
+
+h2
+{
+    font-family: Courier, sans-serif, serif;
+    font-size: 1.2em;
+    color: chartreuse;
+}
+
+
+h10
+{
+    font-family: Courier, sans-serif, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: chartreuse;
+    margin-left: -2em;
+}
+
+
+h3
+{
+    font-family: Geneva, serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: chartreuse;
+}
+
+h4
+{
+    font-family: Geneva, serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+h5
+{
+    font-family: Arial, sans-serif, serif;
+    font-size: 0.7em;
+    margin-left: 2em;
+}
+
+h6
+{
+    font-family: Helvetica, sans-serif, serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: gray;
+}
+
+h1
+{
+    font-family: Geneva, serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: chartreuse;
+}
